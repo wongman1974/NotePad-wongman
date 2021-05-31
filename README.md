@@ -2,14 +2,14 @@
 添加时间戳功能：
 
 1.添加时间戳的位置在主页面的每个列表项中添加，即在notelist_item.xml布局文件中添加一个
-<TextView  
+TextView  
        android:id="@android:id/text2"  
        android:layout_width="match_parent"  
        android:layout_height="wrap_content"  
        android:textAppearance="?android:attr/textAppearanceLarge"  
        android:gravity="center_vertical"  
        android:paddingLeft="5dp"  
-       android:singleLine="true" />  `
+       android:singleLine="true"
 
 2.在NoteList类的PROJECTION中添加COLUMN_NAME_MODIFICATION_DATE字段(该字段在NotePad中有说明)
 
